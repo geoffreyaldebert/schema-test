@@ -40,7 +40,7 @@
          "description":"Array field description",
          "type":"array",
          "example":"",
-         "array_item":{
+         "arrayItem":{
             "constraints": {
                "enum": ["a", "b"]
             }

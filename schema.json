@@ -41,8 +41,9 @@
          "type":"array",
          "example":"",
          "array_item":{
-            "type": "string",
-            "enum": ["a", "b"]
+            "constraints": {
+               "enum": ["a", "b"]
+            }
          }
       }
    ]

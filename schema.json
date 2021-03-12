@@ -19,17 +19,8 @@
       }
    ],
    "resources":[
-      {
-         "title":"Fichier valide (CSV)",
-         "name":"exemple-valide-csv",
-         "path":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/exemple-valide.csv"
-      }
    ],
    "sources":[
-      {
-         "title":"Arrêté du 12 janvier 2017 relatif aux objets importants",
-         "path":"https://beta.legifrance.gouv.fr/codes/id/LEGISCTA000031367685/2020-05-25"
-      }
    ],
    "created":"2018-06-29",
    "lastModified":"2019-05-06",
@@ -40,43 +31,19 @@
          "email":"john.smith@etalab.gouv.fr",
          "organisation":"Etalab",
          "role":"author"
-      },
-      {
-         "title":"Jane Doe",
-         "email":"jane.doe@example.com",
-         "organisation":"Association très importante",
-         "role":"contributor"
       }
    ],
    "fields":[
       {
-         "name":"id",
-         "description":"Un identifiant unique de l'objet.",
-         "example":"42",
-         "type":"integer",
-         "constraints":{
-            "required":true,
-            "minimum":1
-         }
-      },
-      {
-         "name":"date_creation",
-         "description":"La date de création de l'objet, au format ISO 8601 AAAA-MM-DD.",
-         "example":"2020-02-27",
-         "type":"date",
-         "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"nom",
-         "description":"Le nom de l'objet.",
-         "example":"Brouette",
-         "type":"string",
-         "constraints":{
-            "required":true
+         "name":"array_field",
+         "title":"Array field",
+         "description":"Array field description",
+         "type":"array",
+         "example":"",
+         "array_item":{
+            "type": "string",
+            "enum": ["a", "b"]
          }
       }
-   ],
-   "primaryKey":"id"
+   ]
 }

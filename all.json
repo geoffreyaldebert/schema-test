@@ -1,0 +1,188 @@
+{
+    "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "name":"objets-importants",
+    "title":"Schéma des objets importants",
+    "description":"Spécification du fichier d'échange relatif aux objets importants gérés par les collectivités.",
+    "keywords":[
+       "objets",
+       "autre-tag"
+    ],
+    "countryCode":"FR",
+    "homepage":"https://github.com/mon-orga/schema-objets-importants",
+    "path":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/schema.json",
+    "image":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.1/irve.png",
+    "licenses":[
+       {
+          "title":"Etalab Licence Ouverte 2.0",
+          "name":"etalab-2.0",
+          "path":"https://spdx.org/licenses/etalab-2.0.html"
+       }
+    ],
+    "resources":[
+    ],
+    "sources":[
+    ],
+    "created":"2018-06-29",
+    "lastModified":"2019-05-06",
+    "version":"0.1.1",
+    "contributors":[
+       {
+          "title":"John Smith",
+          "email":"john.smith@etalab.gouv.fr",
+          "organisation":"Etalab",
+          "role":"author"
+       }
+    ],
+    "fields":[
+        {
+           "name":"string_field",
+           "title":"String field",
+           "description":"String field description",
+           "type":"string",
+           "example":"toto",
+           "constraints":{
+               "required": true
+           }
+        },,
+        {
+          "name": "ad_string",
+          "description": "String adresse",
+          "type": "string",
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+          "name": "url_string",
+          "description": "String url",
+          "example": "https://www.exemple.fr/stationnementrepublique/",
+          "type": "string",
+          "format": "uri",
+          "constraints": {
+            "required": false
+          }
+        },
+        {
+          "name": "enum_string",
+          "description": "Enum String",
+          "example": "tous",
+          "type": "string",
+          "constraints": {
+            "required": true,
+            "enum": [
+              "Option A",
+              "Option B",
+              "Option C",
+              "Option D"
+            ]
+          }
+        },
+        {
+          "name": "bool",
+          "description": "Boolean",
+          "example": "true",
+          "type": "boolean",
+          "trueValues": [
+            "true",
+            "True",
+            "TRUE",
+            "1",
+            "vrai",
+            "Vrai",
+            "VRAI"
+          ],
+          "falseValues": [
+            "false",
+            "False",
+            "FALSE",
+            "0",
+            "faux",
+            "Faux",
+            "FAUX"
+          ],
+          "constraints": {
+            "required": true
+          }
+        },
+        {
+            "name": "date_1",
+            "description": "Date YYYY/mm/dd",
+            "example": "2018/08/08, 2015/12/30",
+            "type": "date",
+            "format": "%Y/%m/%d",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "date_2",
+            "description": "Date YYYY-mm-dd",
+            "example": "2018-08-08, 2015-12-30",
+            "type": "date",
+            "format": "%Y-%m-%d",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+           "name":"array_field",
+           "title":"Array field",
+           "description":"Array field description",
+           "type":"array",
+           "example":"",
+           "constraints":{
+               "required": true
+           }
+        },
+        {
+           "name":"array_enum_field",
+           "title":"Array field",
+           "description":"Array field description",
+           "type":"array",
+           "example":"",
+           "arrayItem":{
+              "constraints": {
+                 "enum": ["a", "b"]
+              }
+           },
+           "constraints":{
+               "required": true
+           }
+        },
+        {
+           "name":"number_field",
+           "title":"Nuber field",
+           "description":"Number description between 0 and 100",
+           "type":"number",
+           "example":"",
+           "constraints":{
+               "required": true,
+               "minimum": 0,
+               "maximum": 100   
+           }
+        },
+        {
+           "name":"integer_field",
+           "title":"integer field",
+           "description":"integer description between 0 and 100",
+           "type":"integer",
+           "example":"",
+           "constraints":{
+               "required": true,
+               "minimum": 0,
+               "maximum": 100   
+           }
+        },
+        {
+           "name":"geopoint_field",
+           "title":"Geopoint field",
+           "description":"geopoint description",
+           "type":"geopoint",
+           "example":"",
+           "constraints":{
+               "required": true
+           }
+        }
+    ]
+ }
+ 

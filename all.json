@@ -43,7 +43,7 @@
            "constraints":{
                "required": true
            }
-        },,
+        },
         {
           "name": "ad_string",
           "description": "String adresse",

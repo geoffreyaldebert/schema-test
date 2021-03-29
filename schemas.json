@@ -11,7 +11,7 @@
       "schema_type": "tableschema"
     },
     {
-      "name": "Test schema",
+      "name": "geoffrey/test-schema",
       "title": "Test schéma",
       "description": "Test schéma",
       "schema_url": "https://raw.githubusercontent.com/geoffreyaldebert/schema-test/master/all.json",

@@ -7,7 +7,7 @@
       "name": "etalab/schema-irve",
       "title": "Infrastructures de recharge pour véhicules électriques",
       "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
-      "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/schema.json",
+      "schema_url": "https://raw.githubusercontent.com/etalab/schema-irve/geoffrey/v2.0.0/schema.json",
       "schema_type": "tableschema"
     },
     {

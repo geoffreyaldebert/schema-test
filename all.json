@@ -125,6 +125,16 @@
             }
         },
         {
+           "name":"geopoint_field",
+           "title":"Geopoint field",
+           "description":"geopoint description",
+           "type":"geopoint",
+           "example":"",
+           "constraints":{
+               "required": true
+           }
+        },
+        {
            "name":"array_field",
            "title":"Array field",
            "description":"Array field description",
@@ -142,7 +152,7 @@
            "example":"",
            "arrayItem":{
               "constraints": {
-                 "enum": ["a", "b"]
+                 "enum": ["Option a", "Option b", "Option vraiment vraiment super longue c", "Option d"]
               }
            },
            "constraints":{
@@ -171,16 +181,6 @@
                "required": true,
                "minimum": 0,
                "maximum": 100   
-           }
-        },
-        {
-           "name":"geopoint_field",
-           "title":"Geopoint field",
-           "description":"geopoint description",
-           "type":"geopoint",
-           "example":"",
-           "constraints":{
-               "required": true
            }
         }
     ]

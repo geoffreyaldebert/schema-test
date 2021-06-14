@@ -35,6 +35,16 @@
     ],
     "fields":[
         {
+           "name":"id_string",
+           "title":"Title id string",
+           "description": "Desc id string",
+           "type":"string",
+           "example":"uuid",
+           "constraints":{
+               "required": true
+           }
+        },
+        {
            "name":"string_field",
            "title":"String field",
            "description":"String field description",

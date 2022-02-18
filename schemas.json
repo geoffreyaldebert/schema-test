@@ -8,14 +8,106 @@
       "title": "Lieux de covoiturage",
       "description": "Spécification des lieux permettant le covoiturage",
       "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/latest/schema.json",
-      "schema_type": "tableschema"
+      "schema_type": "tableschema",
+      "contact": "contact@transport.beta.gouv.fr",
+      "examples": [
+        {
+          "title": "Ressource valide",
+          "name": "exemple-valide",
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+        },
+        {
+          "title": "Ressource invalide",
+          "name": "exemple-invalide",
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+        }
+      ],
+      "labels": [
+        "transport.data.gouv.fr"
+      ],
+      "consolidation_dataset_id": "5d6eaffc8b4c417cdc452ac3",
+      "versions": [
+        {
+          "version_name": "0.0.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.0.1/schema.json"
+        },
+        {
+          "version_name": "0.1.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.0/schema.json"
+        },
+        {
+          "version_name": "0.1.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.1/schema.json"
+        },
+        {
+          "version_name": "0.1.2",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.1.2/schema.json"
+        },
+        {
+          "version_name": "0.2.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.0/schema.json"
+        },
+        {
+          "version_name": "0.2.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.1/schema.json"
+        },
+        {
+          "version_name": "0.2.2",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.2/schema.json"
+        },
+        {
+          "version_name": "0.2.3",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-lieux-covoiturage/0.2.3/schema.json"
+        }
+      ],
+      "external_doc": null,
+      "external_tool": null,
+      "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git"
     },
     {
       "name": "NaturalSolutions/schema-arbre",
-      "title": "Schéma des attributs des arbres urbains",
+      "title": "Arbres urbains",
       "description": "Spécification des attributs liés aux arbres urbains dans le cadre d'un inventaire du patrimoine arboré par les collectivités.",
       "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/latest/schema.json",
-      "schema_type": "tableschema"
+      "schema_type": "tableschema",
+      "contact": "contact@natural-solutions.eu",
+      "examples": [
+        {
+          "title": "Fichier valide (CSV)",
+          "name": "exemple-valide-csv",
+          "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.csv"
+        },
+        {
+          "title": "Ressource valide (XLSX)",
+          "name": "exemple-valide-xlsx",
+          "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.xlsx"
+        }
+      ],
+      "labels": [
+        
+      ],
+      "consolidation_dataset_id": null,
+      "versions": [
+        {
+          "version_name": "0.1.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.1.0/schema.json"
+        },
+        {
+          "version_name": "0.2.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json"
+        },
+        {
+          "version_name": "0.2.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json"
+        },
+        {
+          "version_name": "0.2.2",
+          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.2/schema.json"
+        }
+      ],
+      "external_doc": null,
+      "external_tool": null,
+      "homepage": "https://github.com/NaturalSolutions/schema-arbre.git"
     }
   ]
 }

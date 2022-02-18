@@ -65,49 +65,56 @@
       "homepage": "https://github.com/etalab/schema-lieux-covoiturage.git"
     },
     {
-      "name": "NaturalSolutions/schema-arbre",
-      "title": "Arbres urbains",
-      "description": "Spécification des attributs liés aux arbres urbains dans le cadre d'un inventaire du patrimoine arboré par les collectivités.",
-      "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/latest/schema.json",
+      "name": "etalab/schema-irve",
+      "title": "Infrastructures de recharge pour véhicules électriques",
+      "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
+      "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/latest/schema.json",
       "schema_type": "tableschema",
-      "contact": "contact@natural-solutions.eu",
+      "contact": "contact@transport.beta.gouv.fr",
       "examples": [
         {
-          "title": "Fichier valide (CSV)",
-          "name": "exemple-valide-csv",
-          "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.csv"
-        },
-        {
-          "title": "Ressource valide (XLSX)",
-          "name": "exemple-valide-xlsx",
-          "path": "https://raw.githubusercontent.com/NaturalSolutions/schema-arbre/v0.2.2/exemple-valide.xlsx"
+          "title": "Exemple de fichier IRVE valide",
+          "path": "https://github.com/etalab/schema-irve/raw/v2.0.2/exemple-valide.csv"
         }
       ],
       "labels": [
-        
+        "Socle Commun des Données Locales",
+        "transport.data.gouv.fr"
       ],
-      "consolidation_dataset_id": null,
+      "consolidation_dataset_id": "5448d3e0c751df01f85d0572",
       "versions": [
         {
-          "version_name": "0.1.0",
-          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.1.0/schema.json"
+          "version_name": "1.0.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.0/schema.json"
         },
         {
-          "version_name": "0.2.0",
-          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.0/schema.json"
+          "version_name": "1.0.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.1/schema.json"
         },
         {
-          "version_name": "0.2.1",
-          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.1/schema.json"
+          "version_name": "1.0.2",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.2/schema.json"
         },
         {
-          "version_name": "0.2.2",
-          "schema_url": "https://schema.data.gouv.fr/schemas/NaturalSolutions/schema-arbre/0.2.2/schema.json"
+          "version_name": "1.0.3",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/1.0.3/schema.json"
+        },
+        {
+          "version_name": "2.0.0",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.0/schema.json"
+        },
+        {
+          "version_name": "2.0.1",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.1/schema.json"
+        },
+        {
+          "version_name": "2.0.2",
+          "schema_url": "https://schema.data.gouv.fr/schemas/etalab/schema-irve/2.0.2/schema.json"
         }
       ],
-      "external_doc": null,
+      "external_doc": "https://doc.transport.data.gouv.fr/producteurs/infrastructures-de-recharge-de-vehicules-electriques-irve",
       "external_tool": null,
-      "homepage": "https://github.com/NaturalSolutions/schema-arbre.git"
+      "homepage": "https://github.com/etalab/schema-irve.git"
     }
   ]
 }
